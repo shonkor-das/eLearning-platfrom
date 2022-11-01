@@ -1,0 +1,26 @@
+.detailImage{
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.courseDetail{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.download {
+    text-align: center;
+    text-decoration: none;   
+    border: 2px solid #F66962;
+    background-color: #F66962;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    color: white;
+  }
+  
+  .download:hover {
+    border: 2px solid #F66962!important;
+    background-color: unset;
+    color: #F66962;
+  }

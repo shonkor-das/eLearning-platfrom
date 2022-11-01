@@ -1,0 +1,76 @@
+.signInButton {
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  border: 2px solid #F66962;
+  background-color: #F66962;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+.signInButton:hover {
+  border: 2px solid #F66962;
+  background-color: unset;
+  color: black;
+}
+
+.signUpButton {
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  border: 2px solid #917CF6;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  background-color: unset;
+  color: #917CF6;
+}
+
+.signUpButton:hover {
+  border: 2px solid #917CF6;
+  background-color: #917CF6;
+  color: white!important;
+}
+
+.signOutButton {
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  border: 2px solid red;
+  background-color: red;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+.signOutButton:hover {
+  border: 2px solid red;
+  background-color: unset;
+  color: black;
+}
+
+.navLogo {
+  width: 10%;
+}
+
+.decorationNone {
+  text-decoration: none;
+}
+
+.hoverName{
+  transform: scale(0);
+  font-size: 13px;
+  font-weight: 600; 
+  transition: 0.3s ease-in-out;
+}
+.hoverName h5{ 
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 10px 0px 10px;
+  text-decoration: none;
+}
+
+.instructorPhoto:hover .hoverName{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.bg-none{
+  background-color: unset;
+}

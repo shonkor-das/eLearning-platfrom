@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAHvtFoFZGI25-NTppujEMaEpK8O3NY0oc",
-  authDomain: "elearning-platform-39791.firebaseapp.com",
-  projectId: "elearning-platform-39791",
-  storageBucket: "elearning-platform-39791.appspot.com",
-  messagingSenderId: "72401869564",
-  appId: "1:72401869564:web:daa5d5a4efac455d38d579"
+  apiKey: "AIzaSyAkPPhc5z5cxQ995KPGaZQbE2T9Hi0bYFE",
+  authDomain: "dreams-learning-e6539.firebaseapp.com",
+  projectId: "dreams-learning-e6539",
+  storageBucket: "dreams-learning-e6539.appspot.com",
+  messagingSenderId: "710972870302",
+  appId: "1:710972870302:web:d09e6c53bdf8cc6ca8f58f"
 };
 
 // Initialize Firebase

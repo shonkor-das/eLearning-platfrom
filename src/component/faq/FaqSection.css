@@ -1,0 +1,18 @@
+.accordion {
+  --bs-accordion-border-color: rgb(254, 228, 226);
+  --bs-accordion-border-width: 1px;
+  --bs-accordion-border-radius: 0 !important;
+  --bs-accordion-inner-border-radius: 0 !important;
+
+}
+
+:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: rgb(254, 228, 226);
+  box-shadow: rgb(254, 228, 226);
+}

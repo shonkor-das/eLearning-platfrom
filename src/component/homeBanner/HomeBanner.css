@@ -1,0 +1,44 @@
+.headerTag {
+  font-size: 22px;
+  font-weight: 500;
+  color: gray;
+}
+
+.headingTitle {
+  font-size: 3.9rem;
+  font-weight: 900;
+}
+
+.homeBg {
+  background: rgb(254, 228, 226);
+  background: linear-gradient(90deg, rgba(254, 228, 226, 1) 0%, rgba(229, 243, 255, 1) 100%);
+}
+
+.ZoomIn {
+  animation: zoomin 10s ease-in-out infinite;
+}
+
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0.9);
+  }
+
+  25% {
+    transform: scale(0.95);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+
+
+}

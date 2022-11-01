@@ -1,0 +1,43 @@
+.logingBg {
+  background: rgb(254, 228, 226);
+  background: linear-gradient(90deg, rgba(254, 228, 226, 1) 0%, rgba(229, 243, 255, 1) 100%);
+}
+
+.backtoHome {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.backtoHome:hover {
+  color: #F66962;
+  font-weight: 700;
+}
+
+.inputField {
+  border: 1px solid #F66962;
+  padding: 15px 0px 15px 10px;
+}
+
+.forgotPass {
+  text-decoration: none;
+  font-weight: 500;
+  color: royalblue;
+}
+
+.forgotPass:hover {
+  color: #F66962;
+  font-weight: 700;
+}
+
+.submitButton {
+  background-color: #F66962;
+  color: white;
+  font-weight: 700;
+}
+
+.submitButton:hover {
+  background-color: #F66962;
+  color: white;
+  font-weight: 700;
+}

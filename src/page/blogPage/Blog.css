@@ -1,0 +1,54 @@
+
+.textColor{
+  color: black;
+  
+}
+
+.blogQue{
+  color: #F66962;
+}
+.blogsHome{
+  min-height: 360px;
+  transition: 0.4s ease-in-out;
+}
+.blog{
+  min-height: 260px;
+  transition: 0.4s ease-in-out;
+}
+
+
+.blogsHome:hover {
+  background-color: rgb(65, 54, 85);
+}
+
+.blogsHome:hover .textColor{
+  color: white;
+}
+
+.blog:hover {
+  background-color: rgb(65, 54, 85);
+}
+
+.blog:hover .textColor{
+  color: white;
+}
+
+.bgWhite{
+  background-color: whitesmoke!important;
+}
+
+.sideBar{
+  background-color: rgb(254, 228, 226);
+}
+.sideBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:100vh;
+  position: sticky;
+  top: 0px;
+  gap: 15px;
+  margin-top: -100px;
+  padding-left: 50px;
+  text-decoration: none!important;
+}

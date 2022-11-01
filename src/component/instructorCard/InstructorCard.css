@@ -1,0 +1,13 @@
+.fa-solid1 {
+  color: coral;
+}
+
+.instructorDp {
+  height: 400px;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+.instructorDp:hover{
+  filter: grayscale(100%);
+}
