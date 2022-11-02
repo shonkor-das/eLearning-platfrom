@@ -18,8 +18,6 @@ import Footer from "./component/footer/Footer";
 import Profile from "./component/profile/Profile";
 
 
-
-
 function App() {
 
   return (
@@ -28,19 +26,19 @@ function App() {
       <NavBar></NavBar>
       
       <Routes>
-        <Route path="/" element={<Navigate to='/home' />}/>
-        <Route path="/home" element={<HomePage />}/>
+        <Route path="/" element={<Navigate to='/home'></Navigate>}/>
+        <Route path="/home" element={<HomePage></HomePage>}/>
 
-        <Route path="/course" element={<CoursePage />}/>
+        <Route path="/course" element={<CoursePage></CoursePage>}/>
         <Route path="/course/:id" element={ <RequireAuth> <CourseDetailPage/></RequireAuth>  }/>     
         
-        <Route path="/faq" element={<FaqPage />}></Route>
+        <Route path="/faq" element={<FaqPage></FaqPage>}></Route>
         <Route path="/instructor" element={<InstactorPages></InstactorPages>}></Route>
-        <Route path="/blogs" element={<BlogPage/>}></Route>
-        <Route path="/about" element={<><MentorPage/> <Footer/></>}></Route>
-        <Route path="/profile" element={<><Profile/> <Footer/></>}></Route>
-        <Route path="/sign-in" element={<UserAuth><SignInPage /></UserAuth>}></Route>
-        <Route path="/sign-up" element={<UserAuth><SignUpPage /></UserAuth>}></Route>
+        <Route path="/blogs" element={<BlogPage></BlogPage>}></Route>
+        <Route path="/about" element={<><MentorPage></MentorPage> <Footer></Footer></>}></Route>
+        <Route path="/profile" element={<><Profile></Profile> <Footer></Footer></>}></Route>
+        <Route path="/sign-in" element={<UserAuth><SignInPage></SignInPage></UserAuth>}></Route>
+        <Route path="/sign-up" element={<UserAuth><SignUpPage></SignUpPage></UserAuth>}></Route>
       </Routes>
       <ToastContainer></ToastContainer>
 
