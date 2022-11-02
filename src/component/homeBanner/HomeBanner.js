@@ -3,6 +3,7 @@ import "./HomeBanner.css";
 import bannerImage from '../../resource/banner.png';
 
 const HomeBanner = () => {
+  
   return (
     <div className='container py-2 py-lg-1'>
       <div className='row align-items-center justify-content-center'>

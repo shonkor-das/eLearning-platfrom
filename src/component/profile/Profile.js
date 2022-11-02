@@ -6,7 +6,8 @@ import Loading from "../shared/loading/Loading";
 import { ToastContainer, toast } from 'react-toastify';
 
 const Profile = () => {
-  let { user, loading } = useContext(AuthContext);
+
+  const { user, loading } = useContext(AuthContext);
 
   if (loading) {
     return <Loading></Loading>;

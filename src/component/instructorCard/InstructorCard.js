@@ -2,7 +2,7 @@ import React from 'react';
 import './InstructorCard.css'
 
 const InstructorCard = ({instructorInfo}) => {
-   let {instructorPhoto, instructor,  courseName,} = instructorInfo;
+   const {instructorPhoto, instructor,  courseName,} = instructorInfo;
 
   return (
    

@@ -2,6 +2,7 @@ import React from 'react';
 import blogBanner from '../../resource/share.png' 
 
 const Mantor = () => {
+  
   return (
     <div className='container pt-5'>
       <div className='row align-items-center justify-content-center gy-5 gy-lg-0'>
