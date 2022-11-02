@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
+  
   return (
     <div className='bg-light'>
       <div className='container py-5'>

@@ -6,6 +6,7 @@ import Loading from '../shared/loading/Loading';
 const Courses = ({ len }) => {
 
   const [courseList, loading] = useCourseList();
+  
   if (loading) {
     return <Loading></Loading>;
   }

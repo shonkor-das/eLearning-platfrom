@@ -4,6 +4,7 @@ import Loading from "../shared/loading/Loading";
 import "./CourseDetail.css";
 
 const CourseDetail = ({ course, loading }) => {
+  
   const { courseImage, courseName, pdf, rating } = course;
 
   const showRating = (rating) => {
