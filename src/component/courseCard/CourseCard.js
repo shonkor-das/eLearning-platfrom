@@ -15,6 +15,7 @@ const CourseCard = ({ course }) => {
     }
     return showRating;
   }
+  
   return (
      
     <div className='col'>
