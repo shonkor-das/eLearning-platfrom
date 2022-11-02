@@ -17,7 +17,6 @@ const InstructorCard = ({instructorInfo}) => {
     </div>
   </div>
   
-  
   );
 };
 

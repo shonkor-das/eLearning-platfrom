@@ -4,7 +4,9 @@ import InstructorCard from '../instructorCard/InstructorCard';
 import Loading from '../shared/loading/Loading';
 
 const Instructors = ({ len }) => {
+
   const [courseList, loading] = useCourseList();
+  
   if (loading) {
     return <Loading></Loading>;
   }

@@ -14,10 +14,9 @@ const HomeBanner = () => {
         </div>
 
         <div className='col-12 col-lg-6 order-1 order-lg-2'>
-        <p className='headerTag d-block d-lg-none'>The Leader in Online Learning</p>
+          <p className='headerTag d-block d-lg-none'>The Leader in Online Learning</p>
           <img src={bannerImage} alt="bannerImage" className='img-fluid ZoomIn' />
         </div>
-
       </div>
     </div>
   );
