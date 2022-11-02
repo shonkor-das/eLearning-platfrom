@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import "./CourseCard.css";
 
 const CourseCard = ({ course }) => {
+  
   console.log()
   const { id, courseImage, courseName, instructor, instructorPhoto, lesson, time, rating } = course;
 

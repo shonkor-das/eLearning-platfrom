@@ -3,7 +3,9 @@ import useBlogs from "../../hooks/useBlogs";
 import Loading from "../shared/loading/Loading";
 
 const BlogCard = ({ len }) => {
+
   const [blogList, loading] = useBlogs();
+
   if (loading) {
     return <Loading></Loading>;
   }
@@ -29,7 +31,6 @@ const BlogCard = ({ len }) => {
                   {item.strong}
                   </span>{" "}
                   {item.answer}
-                  
                 </p>
               </div>
             </div>

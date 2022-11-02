@@ -3,6 +3,7 @@ import './FaqSection.css'
 import faqImg from '../../resource/faq.png'
 
 const FaqSection = () => {
+  
   return (
     <div className='container py-5'>
       <div className='row align-items-center gap-5'>
