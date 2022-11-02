@@ -3,6 +3,7 @@ import './CourseTitle.css'
 import { Link } from "react-router-dom";
 
 const CoursesTitle = () => {
+  
   return (
     <div className="container d-flex pt-5">
       <div className="row align-items-center ">

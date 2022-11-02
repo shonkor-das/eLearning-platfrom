@@ -62,7 +62,6 @@ const FaqSection = () => {
 
         <div className='col-12 col-lg-5'>
           <img src={faqImg} className='img-fluid ZoomIn' alt="" />
-
         </div>
       </div>
     </div>
