@@ -8,24 +8,24 @@ import toast from 'react-hot-toast';
 
 const SignUp = () => {
 
-  let [error, setError] = useState('')
-  // let [accepted, setAccepted] = useState(false);
-  let { createUser, updateUserProfile, veryFyEmail } = useContext(AuthContext)
+  const [error, setError] = useState('')
+  // const [accepted, setAccepted] = useState(false);
+  const { createUser, updateUserProfile, veryFyEmail } = useContext(AuthContext)
 
-  let handleSubmit = (event) => {
+  const handleSubmit = (event) => {
 
     event.preventDefault();
-    let form = event.target;
-    let name = form.name.value;
-    let photoURL = form.photoURL.value;
-    let email = form.email.value;
-    let password = form.password.value;
+    const form = event.target;
+    const name = form.name.value;
+    const photoURL = form.photoURL.value;
+    const email = form.email.value;
+    const password = form.password.value;
 
     // console.log(name, password, email, photoUrl);
 
     createUser(email, password)
       .then(result => {
-        let user = result.user;
+        const user = result.user;
         console.log(user)
         setError('')
         form.reset();
@@ -39,8 +39,8 @@ const SignUp = () => {
 
   }
 
-  let handleUpdateUserProfile = (name, photoURL) => {
-    let profile = {
+  const handleUpdateUserProfile = (name, photoURL) => {
+    const profile = {
       displayName: name,
       photoURL: photoURL 
     }
@@ -49,6 +49,8 @@ const SignUp = () => {
     .catch(e => console.error(e))
   }
 
+  veryFyEmail()
+  
   return (
     <div className='container-fluid pb-4'>
 
@@ -57,7 +59,7 @@ const SignUp = () => {
         < div className='col-12 col-lg-6 ps-0 ps-lg-5 d-none d-lg-block' >
           <img src={singInImg} className='img-fluid' alt="" />
           <div className='text-center pt-3'>
-            <h1 className='fw-bold'>Welcome to <br /> DreamLMS Courses.</h1>
+            <h1 className='fw-bold'>Welcome to <br /> Programming Courses.</h1>
             <p className='px-0 px-lg-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione labore vitae iusto officiis repudiandae cumque aliquid eius laborum doloribus non?</p>
           </div>
         </div >

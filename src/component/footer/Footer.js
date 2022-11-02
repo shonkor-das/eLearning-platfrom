@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='row'>
 
           <div className='col-12 col-lg-4 '>
-            <img src='https://dreamslms.dreamguystech.com/html/assets/img/logo.svg' alt="" className='w-50' />
+            <img src='Jhttps://dreamslms.dreamguystech.com/html/assets/img/logo.svg' alt="" className='w-50' />
             <p className='pt-2 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eum facere voluptatibus nobis voluptatum nisi eos, officia blanditiis commodi quo cum dolorum nam quasi quis repudiandae. Assumenda veniam vitae facere.</p>
           </div>
 

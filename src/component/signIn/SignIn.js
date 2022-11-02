@@ -55,7 +55,7 @@ const SignIn = () => {
         < div className='col-12 col-lg-6 ps-0 ps-lg-5 d-none d-lg-block' >
           <img src={singInImg} className='img-fluid' alt="" />
           <div className='text-center pt-3'>
-            <h1 className='fw-bold'>Welcome to <br /> elearning Courses.</h1>
+            <h1 className='fw-bold'>Welcome to <br /> Programming Courses.</h1>
             <p className='px-0 px-lg-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione labore vitae iusto officiis repudiandae cumque aliquid eius laborum doloribus non?</p>
           </div>
         </div >

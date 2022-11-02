@@ -10,7 +10,7 @@ const CourseDetailPage = () => {
   const { id } = useParams(); 
   const [courseList, loading] = useCourseList(id);
   if(loading){
-    return <Loading/>
+    return <Loading></Loading>
   }
  
   return (
