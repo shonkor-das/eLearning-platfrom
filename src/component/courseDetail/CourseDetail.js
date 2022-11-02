@@ -1,7 +1,6 @@
 import React from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import Loading from "../shared/loading/Loading";
-
 import "./CourseDetail.css";
 
 const CourseDetail = ({ course, loading }) => {
@@ -32,6 +31,7 @@ const CourseDetail = ({ course, loading }) => {
       theme: "light",
       });
   }
+  
   return (
     <div className="row gx-0 px-0">
       <div className="col-12 col-lg-10 p-5 order-2 order-lg-1">
